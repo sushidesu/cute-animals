@@ -65,7 +65,5 @@ export const makeUsagi = (selector, zoom, drag) => {
     translate: { y: 10, z: 90 }
   })
 
-  illo.updateRenderGraph()
-
   return illo
 }

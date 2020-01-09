@@ -78,7 +78,5 @@ export const makeKuma = (selector, zoom, drag) => {
     translate: { y: 10 }
   })
 
-  illo.updateRenderGraph()
-
   return illo
 }

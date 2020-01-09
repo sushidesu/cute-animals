@@ -95,7 +95,5 @@ export const makeNeko = (selector, zoom, drag) => {
     translate: { x: 90, y: 50, z: 60 }
   })
 
-  illo.updateRenderGraph()
-
   return illo
 }

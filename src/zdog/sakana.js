@@ -85,7 +85,5 @@ export const makeSakana = (selector, zoom, drag) => {
     translate: { x: -4 }
   })
 
-  illo.updateRenderGraph()
-
   return illo
 }
