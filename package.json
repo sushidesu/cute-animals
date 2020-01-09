@@ -1,0 +1,21 @@
+{
+  "name": "cute-animals",
+  "version": "1.0.0",
+  "description": "Very cute animals created using Zdog.",
+  "main": "index.html",
+  "author": "sushidesu",
+  "license": "MIT",
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "sass": "^1.24.3"
+  },
+  "dependencies": {
+    "@types/react": "^16.9.17",
+    "zdog": "^1.1.1"
+  },
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "prebuild": "rm public/*",
+    "build": "parcel build src/index.html -d public --no-source-maps"
+  }
+}
