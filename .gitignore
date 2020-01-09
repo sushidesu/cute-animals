@@ -64,6 +64,7 @@ typings/
 dist/
 .cache/
 .parcel-cache/
+public/
 
 # misc
 .DS_Store
