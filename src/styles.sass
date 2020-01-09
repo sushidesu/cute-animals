@@ -21,8 +21,17 @@ body
 .container
   height: 60%
   display: flex
+  flex-wrap: wrap
+  margin: 3em 5px
   justify-content: center
-  align-items: center
-  background-color: #f0faf5
-  border-radius: 12px
-  margin: 3em 30px
+  align-content: center
+
+  .item
+    flex: 0 1
+    background-color: #f0faf5
+    border-radius: 12px
+    padding: 10px
+    margin: 5px
+    display: flex
+    justify-content: center
+    align-items: center
